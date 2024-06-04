@@ -42,8 +42,8 @@ public class DrinkManager {
         // TODO implement here
         DrinkDBManager drinkDBManager = DrinkDBManager.getManager();
         return drinkDBManager.setDrink(drinkType, drinkNum);
-    }///////////getDrinkQuantity의 파라미터 drinkNum의 타입을 String -> int로 변경
-    ///////////getDrinkQuantity의 리턴값을 void -> boolean 변경
+    }///////////manageDrink 파라미터 drinkNum의 타입을 String -> int로 변경
+    ///////////manageDrink 리턴값을 void -> boolean 변경
 
     public List<Drink> reqAmountOfDrink() {
         // TODO implement here
