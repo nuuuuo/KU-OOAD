@@ -24,6 +24,7 @@ public class MapperTest {
         assertInstanceOf(DrinkController.class, controller, getInstanceErrorMsg(DrinkController.class));
     }
 
+    //xx
     @Test
     void getMessageController() {
         Controller controller = mapper.getController("/message/send");
